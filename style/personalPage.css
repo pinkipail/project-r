@@ -1,0 +1,47 @@
+/* PERSONAL PAGE */
+
+.account {
+    margin: 0 auto;
+
+    width: 100%;
+    min-height: 100vh ;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-body {
+    width: 900px;
+    min-height: 500px ;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-body__image {
+    width: 270px;
+    height: 340px;
+    border: 1px solid #000;
+    margin: 70px;
+}
+
+
+.account-body-info {
+    border: 1px solid #000;
+    height: 340px;
+    width: 400px;
+    margin-right: 70px;
+
+}
+
+.account-body-info__name {
+    margin: 15px;
+    font-size: 25px;
+
+}
+
+
+
+/* /PERSONAL PAGE */

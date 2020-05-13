@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.png" sizes="any" type="image/png">
+    <title>Project-R</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/loading.css">
+    <link rel="stylesheet" href="style/authorization.css">
+
+    <script src="scripts/script.js"></script>
+    
+ 
+</head>
+<body>
+    <div class="page">
+        <div class="spinner"></div>
+<!-- HEADER -->
+        <header><a href="index.html">Project-R</a><div class="header__btn underline">Войти</div></header>
+        <div id="nav-container">
+          <div class="bg"></div>
+          <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <div id="nav-content" tabindex="0">
+            <ul>
+              <li><a href="#0">Home</a></li>
+              <li><a href="#0">Services</a></li>
+              <li><a href="#0">Blog</a></li>
+              <li><a href="#0">About</a></li>
+              <li><a href="#0">Contact</a></li>
+              <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+<!-- MAIN -->
+        <main class="main">
+    <!-- AUTHORIZATION -->
+            <div class="auth">
+                <div class="auth__close"></div>
+                <div class="sign-in">
+                    <h2 >Вход</h2>
+                    <div class="uncorrectLogin">
+                        неверный логин или пароль
+                    </div>
+                    <form action="">
+                        <div class="sign-in__item">
+                            <img src="image/icon_login.svg" alt="">
+                            <input type="email" placeholder="почта" required>
+                        </div>
+                        <div class="sign-in__item">
+                            <img src="image/icon_password.svg" alt="">
+                            <input type="password" placeholder="пароль" maxlength="12" required>
+                        </div>                        
+                        <button class="underline" id="auth-btn">войти</button>
+                    </form>
+                    <div class="sign-in__footer">
+                        <div id="btn-register"class="underline">зарегистрироваться</div>
+                        <div class="underline">забыли пароль?</div>
+                    </div>
+                    
+                </div>
+    <!-- REGISTRATION -->
+                <div class="sign-up">
+                    <h2>Регистрация</h2>
+                    <form action="">
+                        <div class="sign-in__item">
+                            <img src="image/icon_name.svg" alt="">
+                            <input type="text" placeholder="имя  и фамилия">
+                        </div>
+
+                        
+                        <div class="sign-in__item">
+                            <img src="image/icon_login.svg" alt="">
+                            <input type="email" placeholder="почта">
+                        </div>
+
+                        <div class="sign-in__item">
+                            <img src="image/icon_phone.svg" alt="">
+                            <input type="tel" placeholder="номер телефона">
+                            <span>&nbsp;</span>
+                            <img src="image/icon_user.svg" alt="">
+                            <input type="tel" placeholder="логин">
+
+                        </div>
+                        
+                        <div class="sign-in__item">
+                            <img src="image/icon_password.svg" alt="">
+                            <input type="password" placeholder="пароль">
+                            <span>&nbsp;</span>
+                            <input type="password" placeholder="  повторите пароль">
+                        </div>         
+                         
+                        <button class="underline" id="sigh-in-btn">зарегистрироваться</button>
+                    </form>
+                    <div class="sign-up__footer">
+                        <div id="btn-login" class="underline">уже есть аккаунт?</div>
+                    </div>
+                </div>
+            </div>
+            </main>
+
+        <div class="content" >
+            <div class="content__img">
+                <img src="image/logo.svg" alt="" srcset="" width="100%">
+            </div>
+            
+            <div class="content__text">
+                <h2>in the development...</h2>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/validation.js"></script>
+</body>
+</html>
